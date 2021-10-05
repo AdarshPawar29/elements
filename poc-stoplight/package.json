@@ -1,0 +1,61 @@
+{
+  "name": "poc-stoplight",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@spscommerce/ds-colors": "^4.1.0",
+    "@spscommerce/ds-react": "^4.1.0",
+    "@spscommerce/ds-shared": "^4.1.0",
+    "@spscommerce/ds-styles": "^4.1.0",
+    "@spscommerce/positioning": "^4.1.0",
+    "@spscommerce/utils": "^4.1.0",
+    "@stoplight/elements": "^7.3.5",
+    "@stoplight/elements-dev-portal": "^1.4.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.19.2",
+    "clsx": "^1.0.3",
+    "eventemitter3": "^3.1.0",
+    "intersection-observer": "^0.5.1",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isnil": "^4.0.0",
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.padstart": "^4.6.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "nanoid": "^2.1.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "4.0.3",
+    "scroll-into-view-if-needed": "^2.2.20",
+    "swagger-parser": "^10.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
